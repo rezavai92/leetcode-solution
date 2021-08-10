@@ -1,9 +1,11 @@
 #Description
 <a href="https://leetcode.com/problems/linked-list-cycle-ii/" >Problem Link </a>
 
-## Floyd Algo : 
-#### Lemma  : distance from head pointer to loop's beginning point is equal to the distance from the tortoise and hare's intersection point to the beginning of the loop.
-#### Proof  : 
+## Floyd Cylce Detection Algo :
+for the difference of speed in tortoise and hare , if there is a cycle in the list, at one particular node, the hare and tortoise must meet. 
+#### Lemma  : 
+distance from head pointer to loop's beginning point is equal to the distance from the tortoise and hare's intersection point to the beginning of the loop.
+#### Proof of Lemma  : 
           
 <img src="https://raw.githubusercontent.com/rezavai92/leetcode-solution/main/142.%20Linked%20List%20Cycle%20II/floyd-cycle.png" alt="pic" />
 
